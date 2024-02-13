@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+    overflow-x: none;
+    background-image: linear-gradient(#00008B, cyan, #00008B);
+}
+::-webkit-scrollbar {
+    width: 15px;
+    height: 0px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF7276
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FF7276
+}
+
+.header {
+    text-align: center;
+}
+.menuselect {
+    text-align: left;
+    margin: 5em
+}
+button {
+    font-family: "Montserrat";
+    height: 60px;
+    width: 200px;
+    border-width: 2px;
+    margin: 1em;
+    border-color: black;
+    background-image: linear-gradient(to right, #ff8030,#800000);
+    border-radius: 5px;
+    align-items: center;
+}
+.solidimage {
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    width: 20px
+}
+.liquidimage {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    animation-name: liquid;
+    animation-duration: 2s;
+    left:40px;
+    margin: 4px;
+
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.liquidimage2 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: liquid2;
+    animation-duration: 1.25s;
+    margin: 4px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.liquidimage3 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: liquid3;
+    animation-duration: 1.75s;
+    margin: 4px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.liquidimage4 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: liquid4;
+    animation-duration: 2.25s;
+    margin: 4px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+
+
+
+.gasimage {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    animation-name: gas;
+    animation-duration: 2s;
+    left:40px;
+    margin: 8px;
+
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.gasimage2 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: gas2;
+    animation-duration: 1.25s;
+    margin: 8px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.gasimage3 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: gas3;
+    animation-duration: 1.75s;
+    margin: 8px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.gasimage4 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: gas4;
+    animation-duration: 2.25s;
+    margin: 8px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.gasimage5 {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    animation-name: gas5;
+    animation-duration: 2s;
+    left:40px;
+    margin: 8px;
+
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.gasimage6 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: gas6;
+    animation-duration: 1.25s;
+    margin: 8px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.gasimage7 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: gas7;
+    animation-duration: 1.75s;
+    margin: 8px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+.gasimage8 {
+    height: 20px;
+    width: 20px;
+    left:40px;
+    position: relative;
+    animation-name: gas8;
+    animation-duration: 2.25s;
+    margin: 8px;
+    animation-iteration-count: infinite;
+
+    background-size: cover;
+    
+}
+
+
+
+
+.imgdiv {
+    text-align: center;
+}
+.conimgdiv {
+    text-align: center;
+    left: -0px;
+}
+
+.limgdiv {
+    text-align: center;
+    left: 200px;
+}
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+@keyframes liquid {
+    0%   {left:0px; top:0px;}
+    12.5%  {left:40px; top:10px;}
+    25%  {left:20px; top:2cap;}
+    37.5%  {left:30px; top:15px;}
+    50%  {left:20px; top:15px;}
+    62.5% {left:20px; top:10px;}
+    75%  {left:0px; top:20px;}
+    87.5% {left:10px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+
+
+@keyframes liquid2 {
+    0%   {left:0px; top:0px;}
+    12.5% {left: 20px; top: 20px}
+    25%  {left:-20px; top:0px;}
+    37.5% {left: 20px; top: 40px}
+    50%  {left:10px; top:20px;}
+    62.5% {left: 20px; top: 10px}
+    75%  {left:20px; top:0px;}
+    62.5% {left: 20px; top: 10px}
+    100% {left:0px; top:0px;}
+  }
+
+@keyframes liquid3 {
+    0%   {left:0px; top:0px;}
+    12.5% {left: 20px; top:0px;}
+    25%  {left:0px; top:40px;}
+    37.5% {left: 10px; top: 30px}
+    50%  {left:40px; top:40px;}
+    62.5% {left: 20px; top: 10px}
+    75%  {left:0px; top:40px;}
+    62.5% {left: -20px; top: 50px}
+    100% {left:0px; top:0px;}
+}
+@keyframes liquid4 {
+    0%   {left:0px; top:0px;}
+    25%  {left:20px; top:4px;}
+    50%  {left:20px; top:20px;}
+    75%  {left:20px; top:4px;}
+    100% {left:0px; top:0px;}
+    }
+
+
+
+
+@keyframes gas {
+0%   {left:0px; top:0px;}
+12.5%  {left:80px; top:40px;}
+25%  {left:80px; top:80px;}
+37.5%  {left:30px; top:40px;}
+50%  {left:60px; top:15px;}
+62.5% {left:40px; top:80px;}
+75%  {left:20px; top:40px;}
+87.5% {left:40px; top:20px;}
+100% {left:0px; top:0px;}
+}
+@keyframes gas2 {
+    0%   {left:0px; top:0px;}
+    12.5% {left: 40px; top: 0px}
+    25%  {left:-80px; top:0px;}
+    37.5% {left: 20px; top: 40px}
+    50%  {left:10px; top:-20px;}
+    62.5% {left: 20px; top: 40px}
+    75%  {left:-80px; top:0px;}
+    62.5% {left: 20px; top: 80px}
+    100% {left:10px; top:0px;}
+}
+
+@keyframes gas3 {
+    0%   {left:0px; top:0px;}
+    12.5% {left: 40px; top:0px;}
+    25%  {left:0px; top:0px;}
+    37.5% {left: 10px; top: -30px}
+    50%  {left:40px; top:40px;}
+    62.5% {left: 20px; top: 10px}
+    75%  {left:0px; top:40px;}
+    62.5% {left: -20px; top: 50px}
+    100% {left:0px; top:0px;}
+}
+@keyframes gas4 {
+    0%   {left:0px; top:0px;}
+    25%  {left:8%; top:-4px;}
+    50%  {left:20px; top:20px;}
+    75%  {left:-20px; top:4px;}
+    100% {left:0px; top:0px;}
+}
+
+@keyframes gas5 {
+    0%   {left:0px; top:69px;}
+    12.5%  {left:-30px; top:40px;}
+    25%  {left:80px; top:40px;}
+    37.5%  {left:30px; top:40px;}
+    50%  {left:-70px; top:15px;}
+    62.5% {left:40px; top:-80px;}
+    75%  {left:20px; top:40px;}
+    87.5% {left:40px; top:20px;}
+    100% {left:0px; top:0px;}
+}
+@keyframes gas6 {
+    0%   {left:0px; top:02px;}
+    12.5% {left: 40px; top: 0px}
+    25%  {left:-80px; top:30px;}
+    37.5% {left: -20px; top: -40px}
+    50%  {left:10px; top:20px;}
+    62.5% {left: 20px; top: 40px}
+    75%  {left:-80px; top:0px;}
+    62.5% {left: 20px; top: -80px}
+    100% {left:10px; top:100px;}
+}
+
+@keyframes gas7 {
+    0%   {left:0px; top:0px;}
+    12.5% {left: -40px; top:0px;}
+    25%  {left:0px; top:0px;}
+    37.5% {left: 10px; top: 70px}
+    50%  {left:60px; top:40px;}
+    62.5% {left: 20px; top: 10px}
+    75%  {left:0px; top:-40px;}
+    62.5% {left: -80px; top: 50px}
+    100% {left:0px; top:0px;}
+}
+@keyframes gas8 {
+    0%   {left:20px; top:20px;}
+    25%  {left:-20px; top:4px;}
+    50%  {left:20px; top:-80px;}
+    75%  {left:160px; top:4px;}
+    100% {left:0px; top:0px;}
+}
+
+
+
+
+
+
+.desc {
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: left;
+    padding: 0px
+}
